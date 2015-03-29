@@ -1,3 +1,3 @@
-# pocketbaniya
+# Pocket Baniya
 An Android application to manage your financial transactions' data
-Test Privs
+This is the early developmental changes and has no warranty. Use at your own risk. Might cause a nuclear explosion!! 
