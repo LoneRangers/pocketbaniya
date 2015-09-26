@@ -1,6 +1,7 @@
 package com.pocketbaniya.sujeet.tripcalculator;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -53,7 +54,9 @@ public class MainActivity extends ActionBarActivity
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(), R.string.app_name, Toast.LENGTH_LONG).show();
+                //Toast.makeText(getBaseContext(), R.string.app_name, Toast.LENGTH_LONG).show();
+                Intent addTrip = new Intent(getBaseContext(), AddTrip.class);
+                startActivity(addTrip);
             }
         });
     }

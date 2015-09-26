@@ -11,4 +11,10 @@
     <string name="action_example">Example action</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="string_ok">OK</string>
+    <string name="string_cancel">Cancel</string>
+
+    <string name="lbl_trip_name">Name for the trip</string>
+    <string name="lbl_number_friends">Number of friends</string>
 </resources>
